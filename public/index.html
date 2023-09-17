@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HTMX Example</title>
+    <link href="/styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/htmx.org"></script>
+  </head>
+  <body>
+    <div id="header" hx-get="/header" hx-trigger="load" class="w-full"></div>
+    <div class="flex">
+      <div
+        id="sidebar"
+        hx-get="/sidebar"
+        hx-trigger="load"
+        class="w-full md:w-1/4"
+      ></div>
+      <div
+        id="dashboard"
+        hx-get="/dashboard"
+        hx-trigger="load"
+        class="w-full md:w-3/4"
+      ></div>
+    </div>
+  </body>
+</html>
