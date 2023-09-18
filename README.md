@@ -2,7 +2,7 @@
 
 This application is a fullstack Go application with HTMX and Tailwind CSS.
 There is `hot-reloading` for changes between html and style changes.
-The Go server files are built into a single distributable file located in `/tmp` called `main`. The HTML and CSS files are built to `./public/**/*`.
+The Go server files are built into a single distributable file located in `/tmp/main`. The HTML and CSS files are built to `./public/**/*`.
 
 ## Prerequisites
 
