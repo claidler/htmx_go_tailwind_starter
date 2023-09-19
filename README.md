@@ -10,10 +10,7 @@ Before you begin, ensure you have installed the following:
 
 - Go
 - Air
-- Concurrently
 - Browser-sync
-- PostCSS
-- Autoprefixer
 - TailwindCSS
 
 ## Installation
