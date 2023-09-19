@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>HTMX Example</title>
@@ -6,17 +6,22 @@
     <script src="https://unpkg.com/htmx.org"></script>
   </head>
   <body>
-    <div id="header" hx-get="/header" hx-trigger="load" class="w-full"></div>
+    <div
+      id="header"
+      hx-get="/api/header"
+      hx-trigger="load"
+      class="w-full"
+    ></div>
     <div class="flex">
       <div
         id="sidebar"
-        hx-get="/sidebar"
+        hx-get="/api/sidebar"
         hx-trigger="load"
         class="w-full md:w-1/4"
       ></div>
       <div
         id="dashboard"
-        hx-get="/dashboard"
+        hx-get="/api/dashboard"
         hx-trigger="load"
         class="w-full md:w-3/4"
       ></div>
